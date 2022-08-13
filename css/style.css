@@ -769,7 +769,7 @@ main .down i{
     background-color: white;
     box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
     position: relative;
-    counter-increment: "services";
+    counter-increment: services;
     transition: all .4s;
 }
 .services .box::before{
