@@ -8,69 +8,54 @@
     --main-padding-top: 100px;
     --main-padding-bottom: 100px;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'Cairo', sans-serif
 }
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 a {
     text-decoration: none;
 }
-
 .container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
-
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
-
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
-
-
 /*start header*/
-
 header {
     background-color: white;
     position: relative;
     box-shadow: 0 0 10px #ddd;
-
 }
-
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-
 }
-
 header .logo {
     color: var(--main-color);
     font-size: 26px;
@@ -86,10 +71,8 @@ header .logo {
         height: 50px;
     }
 }
-
 header .main-links {
     display: flex;
-
 }
 header .main-links  li:hover .other-links{
     opacity: 1;
@@ -194,7 +177,6 @@ header .other-links .links li a i{
 /*start main*/
 main{
     position: relative;
-
 }
 main .container{
     min-height: calc(100vh - 73px);
@@ -274,7 +256,6 @@ main .down{
     left: 50%;
     transition: 0.3s;
     transform: translatex(-50%);
-
 }
 main .down:hover{
     color: var(--main-color-alt);
@@ -879,6 +860,7 @@ main .down i{
     position: absolute;
     top: 0;
     left: 0;
+    transition: all .8s linear;
 }
 /*end section our-skills*/
 /*start section work*/
